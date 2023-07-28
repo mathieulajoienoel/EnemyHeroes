@@ -1,0 +1,33 @@
+{
+  "$type": "ThunderRoad.CreatureTable, ThunderRoad",
+  "id": "DungeonHumansHardMelee",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 1,
+  "description": null,
+  "linkedToGenderRatio": false,
+  "minMaxDifficulty": {
+    "x": 1,
+    "y": 3
+  },
+  "drops": [
+    {
+      "$type": "ThunderRoad.CreatureTable+Drop, ThunderRoad",
+      "reference": "Table",
+      "referenceID": "HumanHero",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

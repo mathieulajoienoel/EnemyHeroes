@@ -1,0 +1,52 @@
+{
+  "$type": "ThunderRoad.CreatureTable, ThunderRoad",
+  "id": "HumanHero",
+  "saveFolder": "bas",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 1,
+  "description": null,
+  "linkedToGenderRatio": false,
+  "minMaxDifficulty": {
+    "x": 0,
+    "y": 0
+  },
+  "drops": [
+    {
+      "$type": "ThunderRoad.CreatureTable+Drop, ThunderRoad",
+      "reference": "Creature",
+      "referenceID": "CreatureHeroM",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "ContainerHero",
+      "overrideBrain": false,
+      "overrideBrainID": null,
+      "probabilityWeights": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "$type": "ThunderRoad.CreatureTable+Drop, ThunderRoad",
+      "reference": "Creature",
+      "referenceID": "CreatureHeroF",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "ContainerHero",
+      "overrideBrain": false,
+      "overrideBrainID": null,
+      "probabilityWeights": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}
